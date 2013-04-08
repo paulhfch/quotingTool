@@ -1,0 +1,28 @@
+<div class="row-fluid container">
+    <div class="span8 offset2">
+        <h1>Getting a Quote</h1>
+        <div class="alert hide">
+            <strong>Warning!</strong> {{warning}}
+        </div>
+        <form id="forms" ng-submit="getQuote()">
+            <table class="table table-striped">
+                <thead style="font-weight:bold">
+                    <tr>
+                        <td>Tax Payor(s) <input type="button" class="btn btn-success btn-mini" value="Add New" ng-click="addNewTaxPayor()"></td>
+                        <td># of Tax Forms</td>
+                        <td>Action</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="taxPayor in taxPayors">
+                       <td><input type="text" ng-model="taxPayor.name" placeholder="Taxpayor Name"></td>
+                       <td>{{taxPayor.count}}</td>
+                       <td><a class="link" ng-click="edit( taxPayor.index )">Edit</a> | <a class="link" ng-click="remove( taxPayor.index )">Remove</button></td>
+                    </tr>
+                </tbody>
+            </table>
+            <input type="submit" class="btn btn-primary" value="Get a Quote"> <a class="hide" href="#/login">Returning Customer</a>
+        </form>
+    </div>
+</div>
+

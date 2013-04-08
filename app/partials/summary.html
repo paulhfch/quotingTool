@@ -1,0 +1,30 @@
+<div class="row-fluid container">
+     <div class="span8 offset2">
+        <h1>Summary</h1>
+        <div class="alert hide">
+            <strong>Warning!</strong> {{warning}}
+        </div>
+        <table class="table" >
+            <tbody ng-repeat="taxPayor in taxPayors">
+              <tr class="table-header">
+                <td colspan="2">{{taxPayor.name}}  </td>
+                <td>Subtotal: ${{taxPayor.subtotal}}</td>
+              </tr>
+              <tr ng-repeat="form in taxPayor.summary.forms">
+                <td></td>
+                <td>{{form.name}}</td>
+                <td>{{form.id}} x {{form.count}}</td>
+              </tr>
+            </tbody>
+        </table>
+        <strong>Your total comes to: ${{total}}</strong>
+        <a href="#/summary" onclick="window.print();"><i class="icon-print"></i> Print Quote</a>
+        <a href="mailto:someone@gmail.com?subject={{email.subject}}&body={{email.summary}}"><i class="icon-envelope"></i> Send Email</a>
+        
+        <form ng-submit="submitQuote()" class="hide">
+          <input type="text" placeholder="Your name, please" ng-model="contactName">
+          <input type="text" placeholder="Email/Phone number" ng-model="contact"> <!--type="email" not working with AngularJs data-binding -->
+          <input type="submit" class="btn btn-success" value="Submit Quote">
+        </form>
+     </div>
+</div> 

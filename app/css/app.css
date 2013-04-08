@@ -1,0 +1,29 @@
+/* app css stylesheet */
+
+.center{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.hide{
+  display: none;
+}
+
+.loading{
+  height:100%;
+  width:100%;
+  position:fixed;
+  left:0;
+  top:0;
+  z-index:1 !important;
+  background-color:black;
+}
+
+.link{
+  cursor: hand;
+  cursor: pointer;
+}
+
+.table-header{
+  font-weight:bold;
+}

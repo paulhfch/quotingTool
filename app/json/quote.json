@@ -1,0 +1,296 @@
+[
+     {
+        "id" : "ID", 
+        "name" : "Personal info",
+        "count" : null, 
+	"rate" : 10,
+	"time" : 0.3
+    },
+    {
+        "id" : "CARE", 
+        "name" : "Child-care expenses",
+        "count" : null, 
+	"rate" : 10,
+	"time" : 0.5
+    },
+    {
+        "id" : "T3",
+        "name" : "Income from trust allocations",
+        "count" : null, 
+	"rate" : 10,
+	"time" : 0.15
+    },
+    {
+        "id" : "T4", 
+        "name" : "Employment income",
+        "count" : null, 
+	"rate" : 10,
+	"time" : 0.15
+    },
+   { 
+	"id" : "T5",
+        "name" : "Investment income",
+        "count" : null, 
+	"rate" : 10,
+	"time" : 0.15
+    },
+   { 
+	"id" : "T4A",
+        "name" : "Pension, retirement, annuity income",
+        "count" : null, 
+	"rate" : 10,
+	"time" : 0.15
+    },
+   { 
+	"id" : "T4AP",
+        "name" : "Canada pension plan benefits",
+        "count" : null, 
+	"rate" : 10,
+	"time" : 0.15
+    },
+   { 
+	"id" : "T4AQAS",
+        "name" : "Old age scurity pension",
+        "count" : null, 
+	"rate" : 10,
+	"time" : 0.15
+    },
+   { 
+	"id" : "T4E",
+        "name" : "Employment insurance income",
+        "count" : null, 
+	"rate" : 10,
+	"time" : 0.15
+    },
+   { 
+	"id" : "T4RIF",
+        "name" : "Registerd retirement income fund income",
+        "count" : null, 
+	"rate" : 10,
+	"time" : 0.15
+    },
+   { 
+	"id" : "T4RSP",
+        "name" : "Registered retirement savings plan income",
+        "count" : null, 
+	"rate" : 10,
+	"time" : 0.15
+    },
+   { 
+	"id" : "T4PS",
+        "name" : "Satement of employee profit-sharing plan allocations and payments",
+        "count" : null, 
+	"rate" : 10,
+	"time" : 0.15
+    },
+   { 
+	"id" : "T10",
+        "name" : "Pension adujstment",
+        "count" : null, 
+	"rate" : 10,
+	"time" : 0.15
+    },
+   { 
+	"id" : "T101",
+        "name" : "Renounced resource expenses",
+        "count" : null, 
+	"rate" : 10,
+	"time" : 0.15
+    },
+   { 
+	"id" : "T2125",
+        "name" : "Business/Professional/Commission income statements",
+        "count" : null, 
+	"rate" : 10,
+	"time" : 0.15
+    },
+   { 
+	"id" : "T2202",
+        "name" : "Tuition and education amounts",
+        "count" : null, 
+	"rate" : 10,
+	"time" : 0.15
+    },
+   { 
+	"id" : "T5006",
+        "name" : "Labour-sponsored funds tax credit",
+        "count" : null, 
+	"rate" : 10,
+	"time" : 0.15
+    },
+   { 
+	"id" : "T5007",
+        "name" : "Social assistance",
+        "count" : null, 
+	"rate" : 10,
+	"time" : 0.15
+    },
+   { 
+	"id" : "T5008",
+        "name" : "Statement of securities transactions( in number of pages )",
+        "count" : null, 
+	"rate" : 10,
+	"time" : 0.5
+    },
+   { 
+	"id" : "T5013",
+        "name" : "Partnership income from T5013",
+        "count" : null, 
+	"rate" : 10,
+	"time" : 0.5
+    },
+   { 
+	"id" : "RC62",
+        "name" : "Statement of Universal Child Care Benefit",
+        "count" : null, 
+	"rate" : 10,
+	"time" : 0.15
+    },
+   { 
+	"id" : "RC210",
+        "name" : "Working income tax benefits advance payment",
+        "count" : null, 
+	"rate" : 10,
+	"time" : 0.15
+    },
+   { 
+	"id" : "313",
+        "name" : "Adoption expenses",
+        "count" : null, 
+	"rate" : 10,
+	"time" : 0.5
+    },
+   { 
+	"id" : "319",
+        "name" : "Interest paid on student loans",
+        "count" : null, 
+	"rate" : 10,
+	"time" : 0.15
+    },
+   { 
+	"id" : "364",
+        "name" : "Public transit amount",
+        "count" : null, 
+	"rate" : 10,
+	"time" : 0.25
+    },
+   { 
+	"id" : "365",
+        "name" : "Children's fitness amount",
+        "count" : null, 
+	"rate" : 10,
+	"time" : 0.25
+    },
+   { 
+	"id" : "S3",
+        "name" : "Summary of disposition",
+        "count" : null, 
+	"rate" : 10,
+	"time" : 0.5
+    },
+   { 
+	"id" : "S4",
+        "name" : "Bank charges, safety box",
+        "count" : null, 
+	"rate" : 10,
+	"time" : 0.15
+    },
+   { 
+	"id" : "370",
+        "name" : "Children/s arts amount",
+        "count" : null, 
+	"rate" : 10,
+	"time" : 0.25
+    },
+   { 
+	"id" : "ON479",
+        "name" : "Rent paid, property tax paid",
+        "count" : null, 
+	"rate" : 10,
+	"time" : 0.25
+    },
+   { 
+	"id" : "T1M",
+        "name" : "Moving expenses deduction",
+        "count" : null, 
+	"rate" : 10,
+	"time" : 1
+    },
+   { 
+	"id" : "777",
+        "name" : "Employment expenses",
+        "count" : null, 
+	"rate" : 10,
+	"time" : 1
+    },
+   { 
+	"id" : "ABIL",
+        "name" : "Allowance business investment losses",
+        "count" : null, 
+	"rate" : 10,
+	"time" : 2
+    },
+   { 
+	"id" : "Donations",
+        "name" : "Donations",
+        "count" : null, 
+	"rate" : 10,
+	"time" : 0.25
+    },
+   { 
+	"id" : "MED",
+        "name" : "Medical expenses",
+        "count" : null, 
+	"rate" : 10,
+	"time" : 0.25
+    },
+   { 
+	"id" : "Political",
+        "name" : "Polictical contribution",
+        "count" : null, 
+	"rate" : 10,
+	"time" : 0.25
+    },
+   { 
+	"id" : "RRSP",
+        "name" : "Register retirement saving plan contribution",
+        "count" : null, 
+	"rate" : 10,
+	"time" : 0.5
+    },
+   { 
+	"id" : "2125",
+        "name" : "Business income",
+        "count" : null, 
+	"rate" : 10,
+	"time" : 2
+    },
+   { 
+	"id" : "Support",
+        "name" : "Support payments",
+        "count" : null, 
+	"rate" : 10,
+	"time" : 0.25
+    },
+   { 
+	"id" : "2042",
+        "name" : "Farming income",
+        "count" : null, 
+	"rate" : 10,
+	"time" : 2
+    },
+   { 
+	"id" : "2121",
+        "name" : "Fishing income",
+        "count" : null, 
+	"rate" : 10,
+	"time" : 2
+    },
+   { 
+	"id" : "776",
+        "name" : "Rental income",
+        "count" : null, 
+	"rate" : 10,
+	"time" : 2
+    }
+]

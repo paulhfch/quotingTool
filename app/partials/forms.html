@@ -1,0 +1,27 @@
+<div class="row-fluid container">
+     <div class="span8 offset2">
+          <h1>Select Forms For {{taxPayor.name}}</h1>
+          <div>
+               <form ng-submit="back()">
+                   <table class="table table-striped" id="forms">
+                        <thead style="font-weight:bold ">
+                           <tr>
+                               <td>Form Type</td>
+                               <td>#</td>
+                               <td>Comments</td>
+                           </tr>
+                       </thead>
+                       <tbody>
+                           <tr ng-repeat="form in taxPayor.quote.forms">
+                              <td>{{form.id}}</td>
+                              <td> <input style="width: 40px" type="number" min="0" class="count" id="{{formId}}" title="{{form.name}}" ng-model="form.count" ></td>
+                              <td>{{form.name}}</td>
+                           </tr>
+                       </tbody>
+                   </table>
+                   <input type="submit" class="btn btn-primary" value="Back"></a>
+              </form>
+          </div>
+     </div>
+</div>
+     
